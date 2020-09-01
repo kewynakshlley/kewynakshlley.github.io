@@ -1,0 +1,47 @@
+# Site Info
+title:              "kewyn akshlley's blog"
+description:        "personal ramblings and technical writings"
+author_name:        "kewyn akshlley"
+logo_url:           https://avatars1.githubusercontent.com/u/24993749?s=460&u=755913e0465256dfd225d83fb10cac44e34c4b7d&v=4
+github:             "https://github.com/kewynakshlley"
+linkedin:           "https://www.linkedin.com/in/kewynakshlley/"
+email:              "kewynakshlley@gmail.com"
+twitter:            "https://twitter.com/kewynakshlley"
+
+# Site Settings
+url:                https://kewynakshlley.github.io # main url
+baseurl:
+permalink:          /:title # Post permalink
+timezone:           Brazil/Brasilia # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Site Build
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
+
+google_analytics: UA-80715512-1
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"
+

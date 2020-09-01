@@ -1,66 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Kewyn Akshlley</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style media="screen">
-      body {
-        color: #555;
-        font-family: "Helvetica", "Arial", sans-serif;
-        font-size: 1.5rem;
-        line-height: 1.5;
-        margin: 0 auto;
-        max-width: 50em;
-        padding: 4em 1em;
-      }
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6,
-      strong {
-        color: #333;
-      }
-      a:link {
-        color: #43007F;
-      }
-      a:hover {
-        background-color: #43007F;
-        color: white;
-      }
-      hr {
-        margin: 50px 0;
-      }
-      li {
-        margin-bottom: 20px;
-      }
-      .event-place {
-        font-weight: bold;
-      }
-      .event-date {
-        font-style: italic;
-      }
-      @media (max-width: 50em) {
-        body {
-          padding-bottom: 0;
-          padding-top: 0;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>Kewyn</h1>
-      <strong>Student, skeptical and science enthusiast.</strong>
-    </header>
+---
+layout: home
+---
 
-    <p style="text-align: justify; text-justify: inter-word;">I am currently an Information Systems student at UFPB (Universidade Federal da Paraíba), and my only experience in the industry are projects within the University. Passionate about learning, I'm very fascinated by fields like Infrastructure, Distributed Systems and by the OpenSource philosophy. My goal as a professional is <strong>to solve problems bigger than myself</strong>. I believe all the problems can be solved through the scientific method.</p>
-
-    <p><a href="https://twitter.com/Kewynakshlley" target="_blank">Thinking</a> | <a href="https://medium.com/@kewynakshlley" target="_blank">Writing</a> | <a href="https://github.com/kewynakshlley" target="_blank">Coding</a> | <a href="https://www.linkedin.com/in/kewynakshlley" target="_blank">Working</a> 
-
-    <p>Contact me via <a href="mailto:kewynakshlley@gmail.com">email</a>.</p>
-
-  </body>
-</html>
+<div class="home-content">
+	<p style="font-weight:bold;font-size:32px;">Kewyn Akshlley</p>
+	<p style="font-size:18px;">Software Developer</p>
+  <a class="home-links" target="_blank" href="{{ site.github }}">Github</a>
+  <a class="home-links" target="_blank" href="{{ site.twitter }}">Twitter</a>
+  <a class="home-links" target="_blank" href="{{ site.linkedin }}">Linkedin</a>
+  <a class="home-links" target="_blank" href="mailto:kewynakshlley@gmail.com">Email</a>
+  <a class="home-links" href="{{ "/essays" | prepend: site.baseurl | prepend: site.url }}">Posts</a>
+  <a class="home-links" href="{{ "/projects" | prepend: site.baseurl | prepend: site.url }}">Projects</a>
+  <a class="home-links" href="{{ "/about" | prepend: site.baseurl | prepend: site.url }}">About me</a>
+</div>
