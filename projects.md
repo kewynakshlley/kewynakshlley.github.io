@@ -3,8 +3,6 @@ layout: page
 title: Projects
 ---
 
-Here you can find the list of projects I have been working on.
-
 <br/>
 
 ## <a href="https://github.com/kewynakshlley/descubra-api" target="_blank">descubra-api</a>
