@@ -3,8 +3,6 @@ layout: page
 title: Projects
 ---
 
-<br/>https://kewynakshlley.github.io/controlo/
-
 ## <a href="https://github.com/kewynakshlley/descubra-api" target="_blank">controlo</a>
 
 The **Controlo** is a app to save your expenses, filter them by year and visualize the increases using chart bars.
