@@ -7,7 +7,7 @@ title: Projects
 
 **Chatti** is a real-time chat application built with Node.js and Socket.IO.
 
-## <a href="https://github.com/kewynakshlley/descubra-api" target="_blank">controlo</a>
+## <a href="https://github.com/kewynakshlley/controlo" target="_blank">controlo</a>
 
 The **Controlo** is a app to save your expenses, filter them by year and visualize the increases using chart bars.
 
